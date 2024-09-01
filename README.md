@@ -11,7 +11,8 @@ A ToDo application built with Spring Boot for the backend and React with Tailwin
 - **To-Do Management**: Add, update, and remove to-dos within projects.
 - **Export Summary**: Export project summary as a markdown file.
 
-### Technologies Used
--**Backend**: Java (with Spring Boot)
--**Frontend**: ReactJS
--**Database**: H2 Database
+## Technologies Used
+
+- **Backend**: Spring Boot
+- **Frontend**: ReactJS, TailwindCSS
+- **Database**: H2 Database
