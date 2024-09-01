@@ -12,6 +12,6 @@ A ToDo application built with Spring Boot for the backend and React with Tailwin
 - **Export Summary**: Export project summary as a markdown file.
 
 ### Technologies Used
-Backend: Java (with Spring Boot)
-Frontend: ReactJS
-Database: H2 Database
+-**Backend**: Java (with Spring Boot)
+-**Frontend**: ReactJS
+-**Database**: H2 Database
