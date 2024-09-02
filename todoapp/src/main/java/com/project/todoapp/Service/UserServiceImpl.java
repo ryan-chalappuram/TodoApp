@@ -24,7 +24,7 @@ public class UserServiceImpl implements UserService{
         }
         else {
             userRepository.save(user);
-            return "Registration successful please login";
+            return "Registration successful";
         }
     }
 }

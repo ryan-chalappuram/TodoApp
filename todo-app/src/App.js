@@ -23,7 +23,7 @@ function App() {
     }  
     else{
       setIsAuthenticated(false);
-      navigate('/login');
+      //navigate('/login');
     }
   }, [navigate]);
   const showNavbar = location.pathname !== '/login' && location.pathname !== '/register';

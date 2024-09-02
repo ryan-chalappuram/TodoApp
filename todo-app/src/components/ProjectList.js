@@ -34,7 +34,15 @@ function ProjectList() {
 
     return (
         <div className="p-8 bg-gray-100 min-h-screen">
-            <h2 className="text-3xl font-bold mb-6">Projects</h2>
+            <div className="flex items-center justify-between">
+                <h2 className="text-3xl font-bold mb-6">Projects</h2>
+                <button
+                    onClick={() => setIsModalOpen(true)}
+                    className="inline-block mb-5 bg-blue-500 text-white py-2 px-4 rounded-md"
+                >
+                    Create New Project
+                </button>
+            </div>
             <ul className="space-y-4">
                 {projects.map((project) => (
                     <li key={project.id} className="bg-white p-4 rounded-lg shadow-md">
@@ -44,13 +52,6 @@ function ProjectList() {
                     </li>
                 ))}
             </ul>
-            <button
-                onClick={() => setIsModalOpen(true)}
-                className="mt-6 inline-block bg-blue-500 text-white py-2 px-4 rounded-md"
-            >
-                Create New Project
-            </button>
-
             <AddProjectModal
                 isOpen={isModalOpen}
                 onClose={() => setIsModalOpen(false)}
